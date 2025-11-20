@@ -5,3 +5,6 @@ def test_basic_math():
 
 def test_multyply():
     assert multiply(3, 5) == 15, "функция отработала не правильно"
+
+def test_multyply_negative():
+    assert multiply(-3, 5) == -15, "функция отработала не правильно"
